@@ -28,7 +28,7 @@ jobs:
         
       - name: Install package
         run: |
-          pip install .
+          pip install -e .
 
       - name: Run tests with coverage
         run: |
