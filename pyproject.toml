@@ -11,4 +11,7 @@ requires-python = ">=3.7"
 
 [tool.setuptools]
 package-dir = {"" = "."}
-packages = ["modules", "examples"]
+
+[tool.setuptools.packages.find]
+include = ["modules"]
+exclude = ["examples", "tests"]
