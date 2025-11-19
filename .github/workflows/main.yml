@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  test:
+  test: # Name of the job and the status check?
     runs-on: ubuntu-latest
 
     steps:
