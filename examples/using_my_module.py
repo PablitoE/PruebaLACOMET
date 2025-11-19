@@ -4,7 +4,12 @@ from modules.my_module import SuperBasica
 def main():
     sb = SuperBasica()
 
-    return sb.suma(1, 2), sb.resta(4, 2), sb.multiplicacion(2, 3)    # 3, 2 , 6
+    suma_result = sb.suma(1, 2)
+    print(suma_result)
+    resta_result = sb.resta(5, 3)
+    print(resta_result)
+    multiplicacion_result = sb.multiplicacion(2, 3)
+    print(multiplicacion_result)
 
 
 if __name__ == "__main__":

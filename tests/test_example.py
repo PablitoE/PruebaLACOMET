@@ -1,5 +1,8 @@
-from examples.using_my_module import main
+from modules.my_module import SuperBasica
 
 
-def test_main():
-    assert main() == (3, 2, 6)
+def test_SuperBasica():
+    sb = SuperBasica()
+    assert sb.suma(1, 2) == 3
+    assert sb.resta(5, 3) == 2
+    assert sb.multiplicacion(2, 3) == 6
