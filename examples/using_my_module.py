@@ -1,4 +1,4 @@
-from modules.my_module import SuperBasica
+from midemo.my_module import SuperBasica
 
 
 def main():
