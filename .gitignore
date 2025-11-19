@@ -2,11 +2,6 @@
 .pytest_cache
 __pycache__
 *.pyc
-.DS_Store
-.vscode
-.idea
-.env
-.env.*
 .coverage
 build
 midemo.egg-info
