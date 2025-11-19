@@ -29,8 +29,6 @@ jobs:
       - name: Install package
         run: |
           pip install -e .
-
-          - name: Lint with flake8
       
       - name: Lint with ruff 
         run: |
